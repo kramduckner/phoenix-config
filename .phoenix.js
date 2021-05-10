@@ -517,7 +517,8 @@ Key.on("c", CONTROL_SHIFT, function () {
 });
 
 Key.on("o", CONTROL_SHIFT, function () {
-  App.get("Firefox").focus();
+  //Phoenix.log(App.focused().name());
+  App.get("Brave Browser").focus();
 });
 
 Key.on("p", CONTROL_SHIFT, function () {
